@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: rgb(100, 237, 116);
+}
+.App-header {
+  height: 250px;
+  background-image: url(./parking.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 900px 300px;
+}
+h1 {
+  font-family: "Faster One", cursive;
+  font-size: 60px;
+  font-weight: lighter;
+  color: whitesmoke;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.Line {
+  display: block;
+  height: 1px;
+  border: 0px;
+  border-top: 5px solid rgb(255, 0, 0);
+}
+
+#Parking {
+  margin: 30px 20px 5px;
+}
+
+.Slots {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 2px solid green;
+  background-color: rgb(219, 211, 120);
+  margin: 10px 20px;
+}
+.Slot-head {
+  background-color: rgb(232, 80, 25);
+}
+.chkbx {
+  height: 10px;
+}
